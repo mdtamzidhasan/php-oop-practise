@@ -7,7 +7,7 @@ abstract class Shape {
 class Circle extends Shape {
     private $redius;
     
-    public function __constuct($redius){
+    public function __construct($redius){
         $this->redius = $redius;
         
     }
